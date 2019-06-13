@@ -1,0 +1,7 @@
+
+
+select Nom_T from Technicien where code_t in (
+select code_t  from Epandage  
+group by code_t
+having count(*) =(select count(*) from produit)
+)
