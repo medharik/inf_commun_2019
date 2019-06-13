@@ -1,0 +1,2 @@
+Oui, les processus vont s’exécuter de manière concurrente car aucun mécanisme de synchronisation n’est présent
+pour empêcher cette concurrence.
