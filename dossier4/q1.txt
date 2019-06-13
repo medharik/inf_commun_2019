@@ -1,0 +1,7 @@
+Le lancement du programme principal va créer un processus.
+ Au premier appel à la fonction fork on va avoir une
+duplication du code et on va se retrouver avec un processus P et un processus P1. Le processus P va continuer
+sont exécution et produire un processus P2 mais le processus P1 va également créer un processus P2. On se
+retrouve donc avec deux processus de type P2. Les processus P, P1, P2 et P2’ vont ensuite créer chacun un
+processus de type P3. On se retrouve donc avec 4 processus de type P3, 2 processus de type P2, un processus
+de type P1 et un processus de type P. Le lancement de ce programme a donc donné naissance à 8 processus

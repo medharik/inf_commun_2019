@@ -1,0 +1,4 @@
+Il suffit de rajouter
+ l’appel à la fonction exit à la fin de chacune des trois fonctions
+  Fonction1, Fonction2 et Fonction3 pour être bien
+sûr que l’exécution du processus créé va se terminer. 
